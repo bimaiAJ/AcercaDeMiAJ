@@ -1,0 +1,90 @@
+/* Estilos generales para PC */
+body {
+    background: pink;
+}
+
+.encabezado {
+    width: 100%;
+    text-align: left;
+    margin: 20px auto;
+}
+
+.encabezado-y-botones {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.botones {
+    float: right;
+}
+
+.boton {
+    margin-left: 5px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+.boton:hover {
+    background-color: greenyellow;
+}
+
+
+.contenedor-principal {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.MiProgreso, .MisLogros, .Demostracion {
+    display: inline-block;
+    background: lightblue;
+    padding: 20px;
+    border: 10px solid blue;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin: -2px;
+}
+
+.MiProgreso {
+    display: inline-block;
+    width: 30%;
+}
+
+.MisLogros {
+    width: 40%;
+    background: greenyellow;
+    border-color: red;
+}
+
+.Demostracion {
+    width: 30%;
+}
+.ajustar-imagen{
+    width: 100%;
+}
+
+footer {
+    width: 80%;
+    max-width: 1200px;
+    text-align: right;
+    margin: 20px auto;
+}
+
+.btn-outline{
+    background-color: blue !important;
+}
+.fondo{
+    background-color: greenyellow !important;
+}
+.fondo-img-video{
+    background-color: skyblue !important;
+}
+.margen-img{
+border: 4px solid blue !important;
+}
+.margen-video{
+    border: 4px solid red !important;
+    }
